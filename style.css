@@ -1,0 +1,109 @@
+h3, h4 {
+    font-family: Helvetica, sans-serif;
+    color: #111;
+	margin-top:24px;
+}
+
+body {
+    color: #777;
+    padding-top: 50px;
+}
+
+p {
+    font-family: Helvetica, sans-serif;
+    font-size: 105%
+}
+
+.catLink:hover {
+	cursor: pointer;
+}
+
+.carousel-inner img {
+    width: 100%;
+    margin: auto;
+}
+
+@media all and (orientation:portrait) {
+    .carImgLand {display: none !important } 
+}
+
+@media all and (orientation:landscape) {
+    .carImgPort {display: none !important } 
+}
+
+.navbar {
+    font-family: Montserrat, sans-serif;
+    margin-bottom: 0;
+    background-color: #fff;
+    border: 0;
+    font-size: 14px !important;
+    letter-spacing: 1px;
+}
+
+.navbar li a, .navbar  { 
+    color: #444 !important;
+}
+
+.navbar-nav li a:hover {
+    color: #000 !important;
+    font-weight: bold;
+}
+
+.navbar-nav li.active a {
+    color: #000 !important;
+    background-color: #fff !important;
+    font-weight: bold;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+
+a.navbar-brand {
+    color: #000 !important;
+	font-weight: bold;
+}
+
+.person {
+    width: 75%;
+    height: 75%;
+    opacity: 0.8;
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+/* Carousel fade code */
+.carousel-fade .carousel-inner .item {
+    -webkit-transition-property: opacity;
+    transition-property: opacity;
+}
+.carousel-fade .carousel-inner .item,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+    opacity: 0;
+}
+.carousel-fade .carousel-inner .active,
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+    opacity: 1;
+}
+.carousel-fade .carousel-inner .next,
+.carousel-fade .carousel-inner .prev,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+    left: 0;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+.carousel-fade .carousel-control {
+    z-index: 2;
+}
+
+.twocolumns {
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+	-webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px; /* Firefox */
+    column-gap: 40px;
+}

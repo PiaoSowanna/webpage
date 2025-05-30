@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <title>Anomalist Interiørarkitekt</title>
+  <meta charset="utf-8">
+  <meta name="keywords" content="Interiørarkitekt, Interiørarkitekt Oslo, Interiørarkitekt Norge, Interior Architect Oslo, Interior Architect Norway, Exhibition design, Museum design">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+  <script src="script.js"></script>
+  <link rel="stylesheet" type="text/css" href="/style.css">
+
+</head>
+<body ng-app="anomalist">
+
+<div top-menu></div>
+<div ng-controller="FrontPageCarousel">
+  <div class="carSwipe" carousel></div>
+</div>
+
+<div class="container text-center">
+
+<div id="front_page_info">
+  <h3>ANOMALIST</h3>
+  <p class="text-justify">We are Anomalist, an international multidisciplinary team that design homes, shops, hotels, public spaces, museums and more!
+  We are based in Oslo, Norway, and our portifolio includes projects from Europe to Asia.
+  We can accommodate your needs and wishes, whether you are a student wishing to optimise your space in your flat or whether you are a shop owner
+  aiming for a friendly and attractive design of your shop. Our focus is mostly interior, but we also design exterior for museums and public spaces, like schools or libraries.
+  </p>
+  <br>
+
+<div class="row">
+  <div class="col-sm-4">
+    <div class="thumbnail">
+      <a href="category/bolig/"><img src="img/resSample.jpg" alt="Hjem" style="width:100%">
+       <div class="caption"><p><strong>Residential</strong></p></a>
+      <p>Vi designer interiør til private hjem i Norge.</p></div>
+    </div>
+  </div>
+  <div class="col-sm-4">
+    <div class="thumbnail">
+      <a href="museum/"><img src="img/eduSample.jpg" alt="Hjem" style="width:100%">
+      <p><strong>Educational</strong></p></a>
+      <p>We design museums and public spaces. Please see our previous projects and contact us if you are interested in our services.</p>
+    </div>
+  </div>
+  <div class="col-sm-4">
+    <div class="thumbnail">
+      <a href="category/hospitality/"><img src="img/hosSample.jpg" style="width:100%">
+      <p><strong>Hospitality</strong></p></a>
+      <p>We design interiors for hotels and other hospitality buildings.</p>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-sm-4">
+    <div class="thumbnail">
+      <a href="category/shops/"><img src="img/comSample.jpg" alt="Hjem" style="width:100%">
+      <p><strong>Commercial</strong></p></a>
+      <p>We design shops and other commercial buildings.</p>
+    </div>
+  </div>
+  <div class="col-sm-4">
+    <div class="thumbnail">
+      <a href="category/shops/"><img src="img/comSample.jpg" alt="Hjem" style="width:100%">
+      <p><strong>Industrial</strong></p></a>
+      <p>We design industrial buildings.</p>
+    </div>
+  </div> 
+</div>
+
+<p><a href="https://www.facebook.com/AnomalistSpace/"><i class="fa fa-facebook-square" style="font-size:24px;color:#999"></i></a><br><br><br></p>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.15/jquery.touchSwipe.min.js"></script>
+<script>
+$(".carSwipe").swipe({
+
+  swipe: function(event, direction, distance, duration, fingerCount, fingerData) {
+
+    if (direction == 'left') $(this).carousel('next');
+    if (direction == 'right') $(this).carousel('prev');
+
+  },
+  allowPageScroll:"vertical"
+
+});
+</script>
+
+</body>
+</html>
