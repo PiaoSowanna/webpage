@@ -1,0 +1,142 @@
+[
+{
+"id": 1,
+"title": "Animal shelter",
+"description": "birdhouse; insect house; cage; stall for animal"
+},
+{
+"id": 2,
+"title": "Animal uses other than shelter",
+"description": "animal bed; animal feeder; bury pets in; animal or insect trap"
+},
+{
+"id": 3,
+"title": "Art uses",
+"description": "drawing or painting on; paste things on; totem pole; decoration; ornament; masks; cut-out flowers"
+},
+{
+"id": 4,
+"title": "Buildings",
+"description": "playhouse; tree house; forts; dollhouse; tower; skyscraper; factory; apartment buildings"
+},
+{
+"id": 5,
+"title": "carrier",
+"description": "to carry stuff in; lunch pail; carry fishing worms in; tool case"
+},
+{
+"id": 6,
+"title": "Construction uses",
+"description": "any use in which a tin can is cut into strips or patterns; flattened out; for use in building; patching a leaky roof; making something rat proof; to keep holes open so they won’t cave in"
+},
+{
+"id": 7,
+"title": "General container",
+"description": "any response that makes use of the unaltered tin can as a container; to hold something; to can any kind of food; hold paper clips; odds and ends; nails"
+},
+{
+"id": 8,
+"title": "Adapted container",
+"description": "any response which indicates that the use becomes something in addition to a container once it has been filled; pour concrete in a tin can to make an anchor or a door stop"
+},
+{
+"id": 9,
+"title": "Cooking utensils",
+"description": "boiler; pan; bowl; teapot; baking cake in; to bail or dip water; knife; fork; spoon; cup; serving tray; measuring cup"
+},
+{
+"id": 10,
+"title": "Costume",
+"description": "hat; protective vest; shoes; clothing; jewelry; Indian headdress; tin man costume"
+},
+{
+"id": 11,
+"title": "Cover for plants, holes, or anything",
+"description": "a cover"
+},
+{
+"id": 12,
+"title": "Destruction",
+"description": "to smash; place; in garbage; throw away"
+},
+{
+"id": 13,
+"title": "Ecological uses",
+"description": "to recycle; to melt and use again; to collect for reuse"
+},
+{
+"id": 14,
+"title": "Education use",
+"description": "visual aid, demonstration; teaching devices"
+},
+{
+"id": 15,
+"title": "Furniture",
+"description": "table; chair; stool; ottoman; legs of bed; legs of table"
+},
+{
+"id": 16,
+"title": "Games",
+"description": "equipment for games; kick the can; targets; stilts; Tin Can Alley; bowling"
+},
+{
+"id": 17,
+"title": "Growing",
+"description": "growing flowers; planter; for starting cuttings; growing seedlings; starting tomatoes"
+},
+{
+"id": 18,
+"title": "Household appliances and other items",
+"description": "stove; refrigerator; hot plate; ash tray; lamp; trivet; tripod; fan"
+},
+{
+"id": 19,
+"title": "Music and noise makers",
+"description": "drums or other musical instruments; chimes; bells; tie to cars of newly weds; wake people up; alarm"
+},
+{
+"id": 20,
+"title": "Pattern",
+"description": "stencil or pattern for tracing design or form; drawing a circle; cookie cutter"
+},
+{
+"id": 21,
+"title": "Protection",
+"description": "shield; armor; worm guard for tomatoes or other plants"
+},
+{
+"id": 22,
+"title": "Scientific",
+"description": "to send signals; play telephone or telegraph; to use in conducting scientific experiments; scientific equipment or apparatus"
+},
+{
+"id": 23,
+"title": "Storage",
+"description": "to keep stuff in; to store stuff in; keep nails in; hide treasure map in"
+},
+{
+"id": 24,
+"title": "Support",
+"description": "bookends; hold up table; hold up window or other objects"
+},
+{
+"id": 25,
+"title": "Tools",
+"description": "scoop; shovel; cutting edge; scraper"
+},
+{
+"id": 26,
+"title": "toys",
+"description": "Barbie;any response in which the tin can is used or made into a toy or play things for a child; rattler"
+},
+{
+"id": 27,
+"title": "Transportation",
+"description": "sled; wagon; car; airplane; tank; wheels for wagon"
+},
+{
+"id": 28,
+"title": "weapons",
+"description": "to throw at people or animals; cannon or other weapon of attack"
+}
+]

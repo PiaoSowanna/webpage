@@ -1,0 +1,142 @@
+[
+{
+"id": 1,
+"title": "Animal shelter",
+"description": "cat; dog; chicken house; cage; pen; stall for an animal; reptile box; something to put animals in"
+},
+{
+"id": 2,
+"title": "Animal uses other than shelter",
+"description": "animal bed; animal feeder; bury pets in; wash dogs in; wash animal in; animal trap"
+},
+{
+"id": 3,
+"title": "Art uses",
+"description": "draw on; paint on; paste things on; cutouts; scenery (play set, theater); totem pole; decoration; ornament; masks; cutout flowers or trees"
+},
+{
+"id": 4,
+"title": "Buildings for children to play with",
+"description": "playhouse; tree house; play clubhouse; birdhouse; pop stand; tent; play firehouse; school model, doll house, play church"
+},
+{
+"id": 5,
+"title": "carrier",
+"description": "to carry stuff in; bike basket; carry books and papers; lunch or picnic basket; suitcase; tool case; supply carrier; take out trash; carry works in"
+},
+{
+"id": 6,
+"title": "Construction uses",
+"description": "bricks; fencing; patching; walls; ceiling; insulation; doors; windows; roof"
+},
+{
+"id": 7,
+"title": "General container",
+"description": "any response that makes use of the unaltered cardboard box as a container; to hold something; breadbox; garbage container;junk container; vase; gift box; wastebasket; brick box; jewelry box; wood container; ballot box; art container"
+},
+{
+"id": 8,
+"title": "Adapted container",
+"description": "any response that indicates that the cardboard box use becomes something in addition to a container once it has been filled; paperweight"
+},
+{
+"id": 9,
+"title": "Cooking utensils",
+"description": "bowl; bake cake in; bail or dip water; cup; serving tray; measuring cup"
+},
+{
+"id": 10,
+"title": "Costume",
+"description": "hat; clothing; Indian headdress; shoes; raincoat; hairband; robot costume"
+},
+{
+"id": 11,
+"title": "Cover for plants, lawn, or anything",
+"description": "a cover; wrapping; umbrella; furniture cover; book cover"
+},
+{
+"id": 12,
+"title": "Destruction",
+"description": "burn, cut up, crush, throw away"
+},
+{
+"id": 13,
+"title": "Ecological uses",
+"description": "recycle; collect for reuse; paper sale"
+},
+{
+"id": 14,
+"title": "Education",
+"description": "visual aid, demonstration; teacher device; teaching tool; learning tool; booklets; cut out letters; map; measuring device; signs or posters; scrapbook"
+},
+{
+"id": 15,
+"title": "Furniture",
+"description": "dresser; shelf; clothes closet; file cabinet; bed; chair; desk; table; bench"
+},
+{
+"id": 16,
+"title": "Games",
+"description": "equipment for games; base for baseball game; hide in; throw at; ring toss; ball war; dance on; hide Easter eggs in; kick it; basketball hoop; box fights"
+},
+{
+"id": 17,
+"title": "Growing",
+"description": "growing flowers; plant pot; window box; planter; start plants in; vegetable pots"
+},
+{
+"id": 18,
+"title": "Household appliances and other items",
+"description": "eating utensils; plates; dishes; spoon; dish rack; ash tray; fly swatter; mat; venetian blinds; tablecloth; fan"
+},
+{
+"id": 19,
+"title": "Music and noise makers",
+"description": "drums or other musical instruments; bang together to make noise"
+},
+{
+"id": 20,
+"title": "Pattern",
+"description": "stencil or pattern for tracing design or form; drawing square; cookie cutter"
+},
+{
+"id": 21,
+"title": "Protection",
+"description": "armor; shield; helmet; put on head when someone yells"
+},
+{
+"id": 22,
+"title": "Scientific uses and equipment",
+"description": "optical equipment; telescope"
+},
+{
+"id": 23,
+"title": "Storage",
+"description": "put things in; to keep or store stuff in; treasure chest; toy box; toy chest"
+},
+{
+"id": 24,
+"title": "Support",
+"description": "book ends; hold up table, window, or other objects"
+},
+{
+"id": 25,
+"title": "Tools",
+"description": "gun pivot; boat paddle; grass seeder; scoop; shovel"
+},
+{
+"id": 26,
+"title": "toys",
+"description": "Barbie;cut out dolls; kite; train; telephone; building blocks; flying saucers; baby pull toys"
+},
+{
+"id": 27,
+"title": "Transportation",
+"description": "sled; wagon; car; doll buggy"
+},
+{
+"id": 28,
+"title": "weapons",
+"description": "to throw at people or animals; cannon or other weapon of attack"
+}
+]
