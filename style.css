@@ -5,7 +5,7 @@ h3, h4 {
 }
 
 body {
-    color: #777;
+    color: #000;
     padding-top: 50px;
 }
 
@@ -42,7 +42,7 @@ p {
 }
 
 .navbar li a, .navbar  { 
-    color: #444 !important;
+    color: #000 !important;
 }
 
 .navbar-nav li a:hover {
