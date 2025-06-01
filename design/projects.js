@@ -7,7 +7,7 @@ var projects = angular.module('projects', []);
 
 projects.controller('pro', function($scope){
   $scope.currentType = undefined;
-  $scope.types = ['Commercial','Hospitality','Educational','Industrial'];
+  $scope.types = ['Commercial','Hospitality','Educational','Residential'];
   $scope.projects = [
     {
       image: 'img/commercial/img06b.png',
@@ -178,7 +178,7 @@ projects.controller('pro', function($scope){
 	    text: ''
     },
     {
-      image: 'img/hospitality/img36b.png',
+      image: 'img/hospitality/img36b.jpg',
       caption: 'Hospitality',
       type: 'Hospitality',
 	    text: ''
@@ -230,7 +230,127 @@ projects.controller('pro', function($scope){
       caption: 'Hospitality',
       type: 'Hospitality',
 	    text: ''
-    }                                               
+    },
+    {
+      image: 'img/residential/b01.jpg',
+      caption: 'Residential',
+      type: 'Residential',
+	    text: ''
+    },
+    {
+      image: 'img/residential/b02.jpg',
+      caption: 'Residential',
+      type: 'Residential',
+	    text: ''
+    },
+    {
+      image: 'img/residential/b07.jpg',
+      caption: 'Residential',
+      type: 'Residential',
+	    text: ''
+    },
+    {
+      image: 'img/residential/img01b.png',
+      caption: 'Residential',
+      type: 'Residential',
+	    text: ''
+    },
+    {
+      image: 'img/residential/img03b.png',
+      caption: 'Residential',
+      type: 'Residential',
+	    text: ''
+    },
+    {
+      image: 'img/residential/img04b.png',
+      caption: 'Residential',
+      type: 'Residential',
+	    text: ''
+    },
+    {
+      image: 'img/residential/img10b.png',
+      caption: 'Residential',
+      type: 'Residential',
+	    text: ''
+    },
+    {
+      image: 'img/residential/img11b.png',
+      caption: 'Residential',
+      type: 'Residential',
+	    text: ''
+    },
+    {
+      image: 'img/residential/img12b.png',
+      caption: 'Residential',
+      type: 'Residential',
+	    text: ''
+    },
+    {
+      image: 'img/residential/img13b.png',
+      caption: 'Residential',
+      type: 'Residential',
+	    text: ''
+    },
+    {
+      image: 'img/residential/img14b.png',
+      caption: 'Residential',
+      type: 'Residential',
+	    text: ''
+    },
+    {
+      image: 'img/residential/img15b.png',
+      caption: 'Residential',
+      type: 'Residential',
+	    text: ''
+    },
+    {
+      image: 'img/residential/img16b.png',
+      caption: 'Residential',
+      type: 'Residential',
+	    text: ''
+    },
+    {
+      image: 'img/residential/img17b.png',
+      caption: 'Residential',
+      type: 'Residential',
+	    text: ''
+    },
+    {
+      image: 'img/residential/img18b.png',
+      caption: 'Residential',
+      type: 'Residential',
+	    text: ''
+    },
+    {
+      image: 'img/residential/img19b.png',
+      caption: 'Residential',
+      type: 'Residential',
+	    text: ''
+    },
+    {
+      image: 'img/residential/img20b.png',
+      caption: 'Residential',
+      type: 'Residential',
+	    text: ''
+    },
+    {
+      image: 'img/residential/img21b.png',
+      caption: 'Residential',
+      type: 'Residential',
+	    text: ''
+    },
+    {
+      image: 'img/residential/img22b.png',
+      caption: 'Residential',
+      type: 'Residential',
+	    text: ''
+    },
+    {
+      image: 'img/residential/img23b.png',
+      caption: 'Residential',
+      type: 'Residential',
+	    text: ''
+    }                                            
   ];
 });
 
