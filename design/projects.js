@@ -110,13 +110,7 @@ projects.controller('pro', function($scope){
       caption: 'Educational',
       type: 'Educational',
 	    text: ''
-    } ,
-    {
-      image: 'img/educational/img46b.png',
-      caption: 'Educational',
-      type: 'Educational',
-	    text: ''
-    } ,
+    },
     {
       image: 'img/educational/img47b.png',
       caption: 'Educational',
@@ -152,13 +146,7 @@ projects.controller('pro', function($scope){
       caption: 'Educational',
       type: 'Educational',
 	    text: ''
-    } ,
-    {
-      image: 'img/commercial/img53b.png',
-      caption: 'Educational',
-      type: 'Educational',
-	    text: ''
-    } ,
+    },
     {
       image: 'img/educational/img54b.png',
       caption: 'Educational',
