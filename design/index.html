@@ -5,6 +5,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
@@ -32,8 +34,8 @@
 <a href="/category/shops">shops and restaurants</a> (interior).
 Additionally, we do <a href="/category/products">product and furtniture design</a>.
 <br>Below is an overview of a subset of our past projects.</p>-->
-<p><span class="catLink" ng-click="currentType = undefined" style="font-weight:600">All</span>&nbsp;|&nbsp;
-<span ng-repeat="myType in types"><span class="catLink" style="font-weight:600" ng-click="$parent.currentType = myType">{{myType}}</span>&nbsp;|&nbsp;</span></p>
+<p><span class="catLink" ng-click="currentType = undefined">All</span>&nbsp;|&nbsp;
+<span ng-repeat="myType in types"><span class="catLink" ng-click="$parent.currentType = myType">{{myType}}</span>&nbsp;|&nbsp;</span></p>
 
   <div class="row">
     <div class="col-md-4" ng-repeat="project in projects | filter:(!!{type:currentType} || undefined) && {type:currentType}">
@@ -41,13 +43,21 @@ Additionally, we do <a href="/category/products">product and furtniture design</
 		<a href="{{project.image}}" data-toggle="lightbox" data-title="{{project.caption}}" data-footer="{{project.text}}">
         <img src="{{project.image}}" alt="{{project.caption}}" style="width:100%">
 		</a>
-        <div class="caption"><p><strong>{{project.caption}}</strong><p>
+        <div class="caption"><p>{{project.caption}}<p>
         </div>
       </div>
     </div>
 
   </div>
 </div>
+
+
+<br /><br /><br />
+<br /><br /><br /><br />
+<p><a href="https://www.facebook.com/uselessland.social/" target="_blank"><i class="fa fa-facebook-square" style="font-size:24px;color:#999"></i></a> 
+<a href="https://www.instagram.com/uselessland/" target="_blank"><i class="fa fa-instagram" style="font-size:24px;color:#999"></i></a> 
+<a href="https://www.uselessland.com" target="_blank"><i class="fa fa-circle" style="font-size:24px;color:#999"></i></a><br><br><br></p>
+
 
 </div>
 </body>
