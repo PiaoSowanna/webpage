@@ -280,19 +280,19 @@ projects.controller('pro', function($scope){
 	    text: ''
     },
     {
-      image: 'img/residential/img12b.png',
+      image: 'img/residential/img12b.jpg',
       caption: 'Residential',
       type: 'Residential',
 	    text: ''
     },
     {
-      image: 'img/residential/img13b.png',
+      image: 'img/residential/img13b.jpg',
       caption: 'Residential',
       type: 'Residential',
 	    text: ''
     },
     {
-      image: 'img/residential/img14b.png',
+      image: 'img/residential/img14b.jpg',
       caption: 'Residential',
       type: 'Residential',
 	    text: ''
