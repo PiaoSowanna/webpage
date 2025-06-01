@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <title>Anomalist - ABOUT</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+  <script src="./../script.js"></script>
+  <link rel="stylesheet" type="text/css" href="./../style.css">
+</head>
+<body ng-app="anomalist">
+
+<div top-menu active="ABOUT"></div>
+
+<div class="container text-center">
+  <h3>Us</h3>
+  
+ <!-- <p>We do both large and small projects, all of which are managed by Chayanon Lieng. Other team members are primarily engaged in larger projects, though Sangchoke Sibunruang is a frequent contributor
+  in smaller projects as well.</p>-->
+  <br>
+
+      <p><strong>Chayanon Lieng</strong></p>
+        <p>Interior architect & Project manager</p>
+        <p>BArch Interior Architecture (Chulalongkorn University)<br>MA Public Archaeology (University College London)</p>
+		
+		  <p class="text-left"><span class="fulltext"><br>I received my Bachelor of Architecture (5-year degree corresponding to Norway's Sivilarkitekt) from <a href="https://en.wikipedia.org/wiki/Chulalongkorn_University" target="_blank">Chulalongkorn University</a>.<br><br>
+		  In 2010, I received a full-scholarship from the Royal Thai Government to study museum exhibition development which resulted in a master degree in Public Archaeology from <a href="https://en.wikipedia.org/wiki/University_College_London" target="_blank">
+		  University College London</a>. 
+		  My <a href="https://museumspaces.files.wordpress.com/2015/03/icom-rio-2013.pdf" target="_blank">MA dissertation</a> on sensory design in museums and archaeological sites was accepted to be presented at the ICOM2013 conference. After graduation in 2011, I interned at Haley Sharpe Design, a renowned 
+		  museum consultant firm in the UK. Then, in 2012, I started working at the National Science Museum of Thailand where I designed exhibitions and was in committees for new museum buildings across Thailand.<br><br>
+		  I also occasionally taught History of Asian Architecture and Introduction to Museum Design at university levels. Prior to starting Anomalist in 2014, I was an architectural consultant for UNESCO, 
+		  designing workplace layouts and managing the relocation of UNESCO Asia-Pacific premises. </span><a class="readmore" href="#">more about me</a>
+		  </p>
+
+</div>
+
+<script>
+$(document).ready(function () {
+
+    $('.fulltext').hide();
+
+    $('.readmore').click(function (event) {
+        event.preventDefault();
+        $(this).parent().find('.fulltext').slideToggle('slow');
+        $(this).text($(this).text() == 'more about me' ? 'close' : 'more about me');
+    });
+});
+</script>
+
+</body>
+</html>
