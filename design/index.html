@@ -28,6 +28,7 @@
   <br /><br /><br />
 
 <h1>INTERIOR DESIGN</h1>
+<br />
 <!--<p>We do architectural design for a wide range of buildings, including 
 <a href="/category/bolig/">private homes</a> (interior), 
 <a href="/museum/">museums and public spaces</a> (exterior and interior), and 
@@ -36,7 +37,7 @@ Additionally, we do <a href="/category/products">product and furtniture design</
 <br>Below is an overview of a subset of our past projects.</p>-->
 <p><span class="catLink" ng-click="currentType = undefined">All</span>&nbsp;|&nbsp;
 <span ng-repeat="myType in types"><span class="catLink" ng-click="$parent.currentType = myType">{{myType}}</span>&nbsp;|&nbsp;</span></p>
-
+<br />
   <div class="row">
     <div class="col-md-4" ng-repeat="project in projects | filter:(!!{type:currentType} || undefined) && {type:currentType}">
       <div class="thumbnail">
@@ -49,7 +50,6 @@ Additionally, we do <a href="/category/products">product and furtniture design</
     </div>
 
   </div>
-</div>
 
 
 <br /><br /><br />
@@ -57,6 +57,7 @@ Additionally, we do <a href="/category/products">product and furtniture design</
 <p><a href="https://www.facebook.com/uselessland.social/" target="_blank"><i class="fa fa-facebook-square" style="font-size:24px;color:#999"></i></a> 
 <a href="https://www.instagram.com/uselessland/" target="_blank"><i class="fa fa-instagram" style="font-size:24px;color:#999"></i></a> 
 <a href="https://www.uselessland.com" target="_blank"><i class="fa fa-circle" style="font-size:24px;color:#999"></i></a><br><br><br></p>
+</div>
 
 
 </div>
