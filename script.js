@@ -18,40 +18,40 @@ app.directive('carousel', function() {
 app.controller('FrontPageCarousel', function($scope){
   $scope.slides = [
     {
-      imageL: '/webpage/img/res01a.jpg',
-      imageP: '/webpage/img/res01as.jpg'
+      imageL: '/webpage/img/img01a.png',
+      imageP: '/webpage/img/img01b.png'
     },
     {
-      imageL: '/webpage/img/res02a.jpg',
-      imageP: '/webpage/img/res02as.jpg'
+      imageL: '/webpage/img/img02a.png',
+      imageP: '/webpage/img/img02b.png'
     },
     {
-      imageL: '/webpage/img/com01a.jpg',
-      imageP: '/webpage/img/com01as.jpg'
+      imageL: '/webpage/img/img03a.png',
+      imageP: '/webpage/img/img03b.png'
     },
     {
-      imageL: '/webpage/img/com02a.jpg',
-      imageP: '/webpage/img/com02as.jpg'
+      imageL: '/webpage/img/img04a.png',
+      imageP: '/webpage/img/img04b.png'
     },
     {
-      imageL: '/webpage/img/hos01a.jpg',
-      imageP: '/webpage/img/hos01as.jpg'
+      imageL: '/webpage/img/img05a.png',
+      imageP: '/webpage/img/img05b.png'
     },
     {
-      imageL: '/webpage/img/hos02a.jpg',
-      imageP: '/webpage/img/hos02as.jpg'
+      imageL: '/webpage/img/img06a.png',
+      imageP: '/webpage/img/img06b.png'
     },	
     {
-      imageL: '/webpage/img/edu01a.jpg',
-      imageP: '/webpage/img/edu01as.jpg'
+      imageL: '/webpage/img/img07a.png',
+      imageP: '/webpage/img/img07b.png'
     },
     {
-      imageL: '/webpage/img/edu02a.jpg',
-      imageP: '/webpage/img/edu02as.jpg'
+      imageL: '/webpage/img/img08a.png',
+      imageP: '/webpage/img/img08b.png'
     },
 	{
-      imageL: '/webpage/img/ind01a.jpg',
-      imageP: '/webpage/img/ind01as.jpg'
+      imageL: '/webpage/img/img09a.png',
+      imageP: '/webpage/img/img09b.png'
     }	
   ];
 });
