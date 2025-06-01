@@ -232,19 +232,13 @@ projects.controller('pro', function($scope){
 	    text: ''
     },
     {
-      image: 'img/residential/b01.jpg',
+      image: 'img/residential/img02a.png',
       caption: 'Residential',
       type: 'Residential',
 	    text: ''
     },
     {
-      image: 'img/residential/b02.jpg',
-      caption: 'Residential',
-      type: 'Residential',
-	    text: ''
-    },
-    {
-      image: 'img/residential/b07.jpg',
+      image: 'img/residential/img05a.png',
       caption: 'Residential',
       type: 'Residential',
 	    text: ''
