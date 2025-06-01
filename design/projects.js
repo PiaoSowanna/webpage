@@ -170,13 +170,67 @@ projects.controller('pro', function($scope){
       caption: 'Educational',
       type: 'Educational',
 	    text: ''
-    } ,
+    },
     {
       image: 'img/educational/img58b.png',
       caption: 'Educational',
       type: 'Educational',
 	    text: ''
-    }                                                
+    },
+    {
+      image: 'img/hospitality/img36b.png',
+      caption: 'Hospitality',
+      type: 'Hospitality',
+	    text: ''
+    },
+    {
+      image: 'img/hospitality/img37b.png',
+      caption: 'Hospitality',
+      type: 'Hospitality',
+	    text: ''
+    },
+    {
+      image: 'img/hospitality/img38b.png',
+      caption: 'Hospitality',
+      type: 'Hospitality',
+	    text: ''
+    },
+    {
+      image: 'img/hospitality/img39b.png',
+      caption: 'Hospitality',
+      type: 'Hospitality',
+	    text: ''
+    },
+    {
+      image: 'img/hospitality/img40b.png',
+      caption: 'Hospitality',
+      type: 'Hospitality',
+	    text: ''
+    },
+    {
+      image: 'img/hospitality/img41b.png',
+      caption: 'Hospitality',
+      type: 'Hospitality',
+	    text: ''
+    },
+    {
+      image: 'img/hospitality/img42b.png',
+      caption: 'Hospitality',
+      type: 'Hospitality',
+	    text: ''
+    },
+    {
+      image: 'img/hospitality/img43b.png',
+      caption: 'Hospitality',
+      type: 'Hospitality',
+	    text: ''
+    },
+    {
+      image: 'img/hospitality/img44b.png',
+      caption: 'Hospitality',
+      type: 'Hospitality',
+	    text: ''
+    }                                               
   ];
 });
 
